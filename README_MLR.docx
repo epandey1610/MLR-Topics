@@ -1,0 +1,92 @@
+
+### README for Multiple Linear Regression (MLR) Assignment Notebook
+
+---
+
+# Multiple Linear Regression (MLR) Assignment
+
+This repository contains a Jupyter Notebook titled **"MLR Assignment.ipynb"**, which demonstrates the implementation of Multiple Linear Regression (MLR) using a dataset. The notebook focuses on building, evaluating, and interpreting the MLR model to understand the relationships between predictor variables and the target variable.
+
+---
+
+## Features of the Notebook
+
+- **Data Preprocessing**:
+  - Loading and exploring the dataset.
+  - Checking for and handling missing values.
+  - Encoding categorical variables.
+  - Splitting data into training and testing sets.
+
+- **Model Building**:
+  - Implementing Multiple Linear Regression using scikit-learn.
+  - Training the model on the training dataset.
+
+- **Model Evaluation**:
+  - Evaluating the performance of the model using metrics such as:
+    - Mean Absolute Error (MAE)
+    - Mean Squared Error (MSE)
+    - Root Mean Squared Error (RMSE)
+    - R-squared value
+  - Comparing predicted values with actual values.
+
+- **Feature Importance**:
+  - Analyzing the significance of each independent variable in predicting the dependent variable.
+
+---
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following installed:
+- Python 3.8 or above
+- Jupyter Notebook or Jupyter Lab
+- Required Python libraries:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+  - `sklearn`
+
+### How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Eshan16pandey/MLR-Assignment.git
+   cd MLR-Assignment
+   ```
+2. Open the notebook:
+   ```bash
+   jupyter notebook "MLR Assignment.ipynb"
+   ```
+3. Follow the step-by-step implementation to understand the MLR model.
+
+---
+
+## Project Structure
+
+- **`MLR Assignment.ipynb`**: Main notebook containing the implementation of Multiple Linear Regression.
+- **Dataset (if applicable)**: Ensure the dataset is placed in the same directory or update the path accordingly in the notebook.
+
+---
+
+## Results
+
+- Derived insights on how independent variables influence the target variable.
+- Accurate predictions using the MLR model.
+- Visualizations to interpret model performance and variable relationships.
+
+---
+
+## Acknowledgements
+
+- Created by **Eshan Pandey** as part of an assignment on Multiple Linear Regression.
+- Special thanks to mentors and resources from **ExcelR** for guidance.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to contribute, suggest improvements, or use this notebook for your data analysis and modeling tasks. 😊
